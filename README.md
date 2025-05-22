@@ -1,5 +1,39 @@
-# Vue 3 + TypeScript + Vite
+# 📋 Vue 3 User Management App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A sleek and simple **Vue 3** application to manage users with **CRUD operations** and a clean, responsive UI.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🚀 Features
+
+- ✅ Add, edit, delete, and view users
+- ✅ Reusable user form component
+- ✅ Route-based navigation (`UserList`, `UserForm`, `UserDetails`)
+- ✅ Pinia store for state management
+- ✅ TypeScript support
+- ✅ Tailwind CSS for styling
+- ✅ GitHub Pages deployment
+
+---
+
+## 🛠️ Tech Stack
+
+- **Vue 3** (Composition API + `<script setup>`)
+- **TypeScript**
+- **Pinia** (for state management)
+- **Vue Router** (for SPA navigation)
+- **Vite** (as the build tool)
+- **Tailwind CSS** (for styling)
+
+---
+
+## 📦 Project Setup
+
+```bash
+npm install
+npm run dev       # start dev server
+npm run build     # build for production
+```
+
+
+### For Live demo [Click here](https://saicharan965.github.io/v-user-crud/)
