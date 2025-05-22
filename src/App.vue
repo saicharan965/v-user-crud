@@ -1,7 +1,12 @@
-<script setup lang="ts"></script>
-
 <template>
-  <p class="bg-red-500">Hello</p>
+  <div
+    class="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300"
+  >
+    <Navbar />
+    <router-view />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import Navbar from "@/components/Navbar.vue";
+</script>
