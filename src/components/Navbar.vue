@@ -14,11 +14,13 @@
           <RouterLink to="/users" class="hover:underline transition"
             >Users</RouterLink
           >
+          <RouterLink to="/users/new" class="hover:underline transition"
+            >Add User</RouterLink
+          >
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
