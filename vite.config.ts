@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'user-management',
+  base:'/v-user-crud/',
 plugins: [vue(), tailwindcss()],
 resolve: {
   alias: {
