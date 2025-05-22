@@ -25,7 +25,8 @@ function handleSave(formData: { name: string; email: string }) {
   if (isEdit.value && user.value) {
     store.updateUser({ ...user.value, ...formData });
   } else {
-    store.addUser(formData);
+    const newId = Math.max(...store.users.map((u: { id: any; }) => u.id)) + 1;
+    store.addUser({ id: newId, ...formData });
   }
   router.push("/users");
 }
